@@ -52,7 +52,7 @@ services:
     labels:
       #exopose trafik homepage WARNING no password but since its local it be alright
       - "traefik.enable=true"
-      - "traefik.http.routers.traefik-dashboard.rule=Host(`proxy.alecsis.tech`)"
+      - "traefik.http.routers.traefik-dashboard.rule=Host(`proxy.yourdomain.tech`)"
       - "traefik.http.routers.traefik-dashboard.entrypoints=websecure"
       - "traefik.http.routers.traefik-dashboard.tls=true"
       - "traefik.http.routers.traefik-dashboard.tls.certresolver=letsencrypt"
