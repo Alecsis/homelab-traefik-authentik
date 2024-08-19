@@ -1,4 +1,4 @@
-##Traefik Proxy 
+## Traefik Proxy 
 
 This service was made to give my services an domain and not give those "Site Not Secure" warnings on chrome.
 
@@ -38,7 +38,7 @@ Route the service throught traefik's 443 port.
 Both are params needed to use 443 (HTTPS)
 
 
-#AAAAnD if everything works you should see this!
+# AAAAnD if everything works you should see this!
 
 ![image](https://github.com/user-attachments/assets/1933a2ed-f452-4e22-b450-4bb8e4a7298d)
 
