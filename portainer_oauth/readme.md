@@ -20,8 +20,10 @@ https://docs.goauthentik.io/integrations/services/portainer/
 
 After you do that you can sign into it with OAuth!
 You should see a new button to sign into Oauth, and it will force you to sign it via Authentik.
+<br/>
 
 ![image](https://github.com/user-attachments/assets/831baab4-d421-4367-b272-62ec6e4cc48f)
+<br/>
 Now with this login, it creates a new user based on your Authentik email/user and you will need to SIGN out and go back into your main admin account to give the new one 
 admin perms!
 
